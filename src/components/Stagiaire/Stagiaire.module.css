@@ -1,0 +1,11 @@
+div.stagiaire {
+    border: 1px solid #ccc;
+    flex-basis: 10%; /* Car je vais utiliser flex au parent */
+    aspect-ratio: 1 / 1.2;
+    text-align: center;
+}
+
+.satgiaireImg {
+    margin-bottom: 15px;
+    cursor: pointer;
+}

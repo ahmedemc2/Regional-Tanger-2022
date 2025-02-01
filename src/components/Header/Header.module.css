@@ -1,0 +1,20 @@
+/* nav > ul > li > Link */
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    list-style-type: none;
+    gap: 10px;
+}
+
+nav ul li .link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
