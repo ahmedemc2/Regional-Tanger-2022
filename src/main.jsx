@@ -5,7 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import * as bootstrap from "bootstrap";
 
 import App from "./App";
-import store from "./Redux/store";
+// import store from "./Redux/store";
+import store from "./ReduxToolkit/store";
 import { Provider } from "react-redux";
 
 // 5 -

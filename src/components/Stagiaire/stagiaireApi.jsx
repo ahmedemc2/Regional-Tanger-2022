@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
 const StagiaireApi = () => {
-  const stagiaires = useSelector((state) => state.stagiaires);
+  const stagiaires = useSelector((state) => state.stagiaires.stagiaires);
 
   // --------------  Ceci est la bonne réponse pour le question 13 ----------------
 
@@ -29,7 +29,7 @@ const StagiaireApi = () => {
       </thead>
       <tbody>
         {stagiaires.map((stagiaire) => (
-          <tr>
+          <tr key={stagiaire.id}>
             <td>{stagiaire.id}</td>
             <td>{stagiaire.nom}</td>
             <td>{stagiaire.prenom}</td>
